@@ -1,0 +1,22 @@
+Paleta de colores
+.color1 {color: #060606;}
+.color2 {color: #1a242f;}
+.color3 {color: #41576c;}
+.color4 {color: #6d94b1;}
+.color5 {color: #94c9dc;}
+
+.container{
+    background-color: #41576c;
+}
+
+header{
+    border-bottom: thin solid #94c9dc;
+}
+
+.login_button{
+    background-color: #94c9dc;
+}
+
+.banner{
+    padding: 5px;
+}
