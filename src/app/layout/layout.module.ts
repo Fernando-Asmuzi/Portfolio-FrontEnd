@@ -8,6 +8,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { SkillsComponent } from './skills/skills.component';
 import { EducationComponent } from './education/education.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
     DashboardComponent,
     SkillsComponent,
     EducationComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    LoginComponent
   ],
   imports: [
     CommonModule,

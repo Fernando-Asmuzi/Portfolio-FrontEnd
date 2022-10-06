@@ -5,18 +5,42 @@ Paleta de colores
 .color4 {color: #6d94b1;}
 .color5 {color: #94c9dc;}
 
-.container{
-    background-color: #41576c;
-}
-
-header{
-    border-bottom: thin solid #94c9dc;
+.navbar{
+    background-color: #1a242f;
 }
 
 .login_button{
     background-color: #94c9dc;
+    color: #1a242f;
+    border-radius: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder; 
+}
+
+.login_button:hover{
+    background-color: #6d94b1;
 }
 
 .banner{
-    padding: 5px;
+    padding: 10px;
+    background-color: #1a242f;
+}
+
+.navbar-toggler{
+    color: #41576c;
+    background-color: #94c9dc;
+}
+
+ul{
+    margin: auto;
+}
+
+svg{
+    fill: #94c9dc;
+    width: 25px; 
+    height: 25px; 
+}
+
+svg:hover{
+    fill: #6d94b1;
 }
